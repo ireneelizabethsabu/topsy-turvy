@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+.background{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg.webp');
+    background-size: cover;
+    height: 480px;
+}
+.jumbotron {
+    background: none;
+}
+.display-4 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.font{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.nav-link, a:hover{
+    color: #6b757c;
+}
+.btn-outline{
+    width: 65%;
+    color: white;
+    border: 2px solid  white;
+    border-radius: 2rem;
+}
+
+.text{
+    color:#465b55;
+    text-align: center;
+}
+.text-left{
+    color:#465b55;
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+h4{
+    font-weight: 900;
+}
+.white{
+    color: white;
+    padding: 5px;
+}
+.inTouch{
+    color:#465b55;
+}
+img{
+    width: 33%;
+    
+}
+.row{
+    position: relative;
+}
+.pos1, .pos2,.pos3{
+    position: absolute;
+    bottom: 10%;
+    font-weight: 900;
+}
+.pos1{
+    left: 2%;
+}
+.pos2{
+    left: 35%;
+}
+.pos3{
+    left: 68%
+}
+.request-btn{
+    background-color:#353a40;
+    border-radius: 2rem;
+    width: 60%;
+    margin-top: 5%;
+}
+.form-control,input[type=text]:focus,input[type=email]:focus{
+    border: transparent;
+    background: transparent;
+    border-bottom:  #353a40 solid 2px;
+    border-radius: 0rem;
+    color:#353a40;
+    padding-left: 0px;
+    
+}
+
+
+.col-5{
+    position: relative;
+}
+.pacman{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+footer{
+    padding-bottom: 2%;
+}
+.text-grey{
+    color:#353a40;
+}
+.color-grey{
+    background-color: #262626;
+    border-radius: 1rem;
+}
+.card{
+    width: 100%;
+}
